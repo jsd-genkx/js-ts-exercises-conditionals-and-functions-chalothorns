@@ -1,7 +1,7 @@
 // TODO-01: Use if/else to print "Even" or "Odd"
 
-let number;
-number = 14;
+
+let number = 14;
 
 if (number %2=== 0) {
     console.log("Even");
