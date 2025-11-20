@@ -6,9 +6,10 @@
 
 // TODO BONUS: Rewrite with if
 
-const num = 15;
-
-if (num %3 === 0 && num %5 === 0) {
+let num = 0;
+if(num===0){
+    console.log("Zero is not acceptable")
+} else if (num %3 === 0 && num %5 === 0) {
     console.log("FizzBuzz");
 } else if (num %3 === 0){
     console.log("Fizz");
@@ -17,3 +18,4 @@ if (num %3 === 0 && num %5 === 0) {
 }   else {console.log("Not divisible by 3 or 5");
 
 }
+
