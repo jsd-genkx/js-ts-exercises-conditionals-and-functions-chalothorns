@@ -1,9 +1,9 @@
 // TODO-05: Convert this if to switch/case (You can add more options.)
 // TODO BONUS: Use object lookup
 
-const fruit: string = "banana";
+const fruit: string = "Banana";
 
-switch (fruit){
+switch (fruit.toLocaleLowerCase()){
 	case "apple":
 		console.log("An apple a day keeps the doctor away.");
 		break;
